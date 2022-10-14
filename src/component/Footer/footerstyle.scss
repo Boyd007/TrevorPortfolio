@@ -1,0 +1,29 @@
+footer {
+  position: flex;
+  bottom: 5px;
+  padding: 5px;
+  width: 100%;
+  background-color: #280137;
+  color: white;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  margin: 0px;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+footer a:hover {
+  color: #daa520;
+  font-size: 70px;
+}
+
+body {
+  margin: 0;
+}

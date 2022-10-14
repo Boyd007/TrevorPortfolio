@@ -1,0 +1,68 @@
+.contactform {
+    width: 100%;
+    text-align: center;
+    margin-top: 140px;
+    font-family: copperplate;
+    font-weight: 700;
+    font-style: normal;
+    border-radius: 5px;
+
+}
+
+textarea {
+    font-family: copperplate;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+input {
+    font-family: copperplate;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.mb-3 pt-0 {
+    font-family: copperplate;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+.contactform input {
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #daa520;
+    padding-left: 10px;
+    font-size: 19px;
+    font-family: copperplate;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.contactform textarea {
+    width: 50%;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid #daa520;
+    padding-left: 10px;
+    font-size: 19px;
+    font-family: copperplate;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.contactform button {
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #daa520;
+    background-color: #daa520;
+    color: #fff;
+    font-size: 19px;
+    font-family: copperplate;
+    font-weight: 700;
+    font-style: normal;
+}
