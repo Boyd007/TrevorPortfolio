@@ -1,11 +1,10 @@
 footer {
-  position: flex;
-  bottom: 5px;
+  position: relative;
   padding: 5px;
   width: 100%;
   background-color: #280137;
   color: white;
-  height: 70px;
+  height: 75px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +15,7 @@ footer a {
   color: white;
   margin: 0px;
   transition: all 0.3s ease-in-out;
-  
+  bottom: auto;
 }
 
 footer a:hover {
@@ -26,4 +25,13 @@ footer a:hover {
 
 body {
   margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vh;
+  height: 60px;
 }

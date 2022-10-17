@@ -6,7 +6,7 @@ import Projects from "./component/Projects/Projects";
 import { useState } from "react";
 import Footer from "./component/Footer/Footer";
 import Nav from "./component/Nav/Nav";
-import Footerwaves from "./component/FooterWaves/Footerwaves";
+// import Footerwaves from "./component/FooterWaves/Footerwaves";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
         {/* <Route path="/resume" element={<Resume />} /> */}
         {/* <Route path="/resources" element={<Resources />} /> */}
       </Routes>
-      <Footerwaves />
+      {/* <Footerwaves /> */}
       <Footer />
     </>
   );
