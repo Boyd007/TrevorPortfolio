@@ -1,4 +1,9 @@
 header {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
   display: flex;
   font-family: relation-two, sans-serif;
   font-weight: 700;
@@ -6,30 +11,28 @@ header {
   font-style: normal;
   justify-content: space-between;
   align-items: center;
-  padding: 5px;
+  // padding: 5px;
   background-color: #280137;
   color: #daa520;
   letter-spacing: 0.5px;
   height: 75px;
+  // width: 100%;
   box-shadow: 2px 2px 2px 2px #daa520;
   @media screen and (max-width: 768px) {
-flex-direction: row;
+    flex-direction: row;
     height: 65px;
     justify-content: center;
   }
 }
 
-
-
 header nav ul {
   display: flex;
   list-style-type: none;
-  position: relative;
-  width: 100%;
+  // width: 100%;
 }
 
 header nav ul li {
-  padding: 0px 7px;
+  padding: 1px 7px;
   border-right: 2px solid #daa520;
   cursor: grabbing;
 }

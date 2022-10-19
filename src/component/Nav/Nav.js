@@ -5,7 +5,7 @@ function Nav({ setpagename }) {
   return (
     <header>
       <h1>Trevor Boyd</h1>
-
+    
       <nav className="nav">
         <ul className="nav__list">
           <li className="nav__item">

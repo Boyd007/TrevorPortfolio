@@ -1,5 +1,8 @@
 footer {
-  position: relative;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
   padding: 4px;
   width: 100%;
   background-color: #280137;
@@ -15,7 +18,6 @@ footer a {
   color: white;
   margin: 0px;
   transition: all 0.3s ease-in-out;
-  bottom: auto;
 }
 
 footer a:hover {
@@ -23,11 +25,8 @@ footer a:hover {
   font-size: 70px;
 }
 
-
-
 .footer {
   position: absolute;
   bottom: 0;
-  max-width: 100%;
   height: 80px;
 }
