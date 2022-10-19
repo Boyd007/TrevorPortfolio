@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./projects.scss";
-// import "../FooterWaves/Footerwaves";
 
 class Portfolio extends Component {
   render() {
@@ -15,12 +14,12 @@ class Portfolio extends Component {
             >
               <div className="article-wrapper">
                 <article className="col-12 col-12-xsmall work-item">
-                  <a
+                  {/* <a
                     href="https://boyd007.github.io/Personal-Weather-Dashboard/"
                     className="image fit thumb"
                     target="_blank"
                     rel="noopener noreferrer"
-                  ></a>
+                  ></a> */}
                   <div className="art-description">
                     <div className="text-wrapper">
                       <h3>Your Personal Weather App</h3>
