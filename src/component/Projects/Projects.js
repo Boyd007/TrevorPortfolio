@@ -21,7 +21,6 @@ class Portfolio extends Component {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {/* <img src="assets/weatherthumb.png" alt="weather" /> */}
                   </a>
                   <div className="art-description">
                     <div className="text-wrapper">
@@ -44,16 +43,7 @@ class Portfolio extends Component {
                             View Weather Application
                           </a>
                         </li>
-                        {/* <li>
-                          <a
-                            href="https://boyd007.github.io/Strong-Password-Generator/"
-                            className="button project-button brands"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            <i className="fa fa-github icon"></i>View Source
-                          </a>
-                        </li> */}
+                        
                       </div>
                       <div className="languages">
                         <i className="devicon-nodejs-plain colored technology"></i>
@@ -65,14 +55,7 @@ class Portfolio extends Component {
               </div>
               <div className="article-wrapper">
                 <article className="col-12 col-12-xsmall work-item">
-                  <a
-                    href="https://4ob4p.codesandbox.io/"
-                    className="image fit thumb"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {/* <img src="images/thumbs/08.jpg" alt="pic-some" /> */}
-                  </a>
+                 
                   <div className="art-description">
                     <div className="text-wrapper">
                       <h3>Strong Password Generator</h3>
@@ -146,14 +129,6 @@ class Portfolio extends Component {
               </div>
               <div className="article-wrapper">
                 <article className="col-12 col-12-xsmall work-item">
-                  <a
-                    href="https://5dq86.codesandbox.io/"
-                    className="image fit thumb"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {/* <img src="images/thumbs/10.jpg" alt="final-capstone" /> */}
-                  </a>
                   <div className="art-description">
                     <div className="text-wrapper">
                       <h3>Technology Blog</h3>

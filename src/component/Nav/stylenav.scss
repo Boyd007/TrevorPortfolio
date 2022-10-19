@@ -6,13 +6,20 @@ header {
   font-style: normal;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 5px;
   background-color: #280137;
   color: #daa520;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.5px;
   height: 75px;
   box-shadow: 2px 2px 2px 2px #daa520;
+  @media screen and (max-width: 768px) {
+flex-direction: row;
+    height: 65px;
+    justify-content: center;
+  }
 }
+
+
 
 header nav ul {
   display: flex;
@@ -23,8 +30,8 @@ header nav ul {
 
 header nav ul li {
   padding: 0px 7px;
-  border-right: 2px solid #c0bfc1;
-  cursor: pointer;
+  border-right: 2px solid #daa520;
+  cursor: grabbing;
 }
 
 header nav ul li a {
@@ -52,12 +59,13 @@ h1 {
   top: 10px;
   position: relative;
   font-size: 45px;
+  padding: 10px;
 }
 
 h1:hover {
   color: #daa520;
   font-size: 55px;
-  transform: scale(65px); 
+  transform: scale(65px);
 }
 
 body {
