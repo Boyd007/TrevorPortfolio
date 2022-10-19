@@ -20,8 +20,7 @@ class Portfolio extends Component {
                     className="image fit thumb"
                     target="_blank"
                     rel="noopener noreferrer"
-                  >
-                  </a>
+                  ></a>
                   <div className="art-description">
                     <div className="text-wrapper">
                       <h3>Your Personal Weather App</h3>
@@ -43,7 +42,6 @@ class Portfolio extends Component {
                             View Weather Application
                           </a>
                         </li>
-                        
                       </div>
                       <div className="languages">
                         <i className="devicon-nodejs-plain colored technology"></i>
@@ -55,7 +53,6 @@ class Portfolio extends Component {
               </div>
               <div className="article-wrapper">
                 <article className="col-12 col-12-xsmall work-item">
-                 
                   <div className="art-description">
                     <div className="text-wrapper">
                       <h3>Strong Password Generator</h3>
